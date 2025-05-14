@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopHome - Your Favorite Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Shop</span>Home</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" id="cart-icon">Cart (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Affordable Products For Everyone</h1>
+            <p>Discover our amazing collection of products at unbeatable prices</p>
+        </div>
+    </section>
+
+    <section id="featured">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="images/product1.jpg" alt="Product 1">
+                    <h3>Wireless Headphones</h3>
+                    <p>$59.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/product2.jpg" alt="Product 2">
+                    <h3>Smart Watch</h3>
+                    <p>$129.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/product3.jpg" alt="Product 3">
+                    <h3>Bluetooth Speaker</h3>
+                    <p>$39.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>ShopHome, Copyright &copy; 2023</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
